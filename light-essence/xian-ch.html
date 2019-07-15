@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home</title>
+    
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <style type="text/css"> 
+.wrapper
+ { width:670px; height:350px; margin:100px 30px; overflow:hidden; position:relative; }
+ .iframe { width:1024px;height:768px; position:absolute; top:-300px; left:-300px; }
+
+
+
+ #fullScreen
+        {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            opacity: 0.7;
+            background-color: black;
+            z-index: 1;
+        }
+ </style> 
+</head><!--/head-->
+
+<body class="homepage">
+    <header id="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    
+                       
+                </div>
+            </div><!--/.container-->
+        </div><!--/.top-bar-->
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a> -->
+                    <a class="navbar-logo-android">LIGHT</a><a class="navbar-logo-ecity">&</a><a class="navbar-logo-android">ESSENCE</a>
+                </div>
+                
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="about-us.html">关于我们</a></li>
+                        <li class="dropdown active">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">产品介绍 <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="services.html">全部产品</a></li>
+                                <li><a href="tong-ch.html">筒灯系列</a></li>
+                                <li class="active"><a href="xian-ch.html">线灯系列</a></li>
+                                <li><a href="mini-ch.html">小射灯系列</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="brand-ch.html">品牌故事</a></li>       
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->   
+    </header><!--/header-->
+    <a class="web-langue" href="">EHGLISH</a>
+    <section id="feature"  style="padding: 0 0">
+        <div class="container bg-diandian">
+            <div class="row">
+                <div class="center">
+                    <h2 style="margin-top: 60px;">线条灯系列</h2>
+                </div>
+                <div class="features">
+                    <div class="col-md-3 col-sm-6 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <img class="img-responsive img-blog" src="images/product/xian/DTX系列/DTX-200C/DTX-200C.jpg" width="100%" alt="">
+                            <h2>DTX-200C</h2>
+                            <h3 onclick="show('xian/DTX系列/DTX-200C/DTX-200C.pdf')">产品详情</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-3 col-sm-6 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <img class="img-responsive img-blog" src="images/product/xian/DTX系列/DTX-400C/DTX-400C.jpg" width="100%" alt="">
+                            <h2>DTX-400C</h2>
+                            <h3 onclick="show('xian/DTX系列/DTX-400C/DTX-400C.pdf')">产品详情</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-3 col-sm-6 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <img class="img-responsive img-blog" src="images/product/xian/DTX系列/DTX-1000C/DTX-1000C.jpg" width="100%" alt="">
+                            <h2>DTX-1000C</h2>
+                            <h3 onclick="show('xian/DTX系列/DTX-1000C/DTX-1000C.pdf')">产品详情</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+            
+                </div><!--/.services-->
+            </div><!--/.row-->    
+    </section><!--/#feature-->
+
+    <div style="width: 100%">
+        <iframe id="iframepage" src="/Users/zhengy/Desktop/网站/cpts_478_sn/images/product/mini/MINI SPOT.pdf" width="80%" height="0" frameborder="no" scrolling="no" frameborder="0" scrolling="no" style="visibility: hidden; position: absolute;z-index: 99; left:10%; "></iframe>
+    </div>
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    Copyright &copy; 2019 Light&essence All rights reserved 辽ICP备****号-1
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">产品介绍</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript">
+    function show(pdfPath){
+        $("body").append
+            (
+                //占据整个屏幕Div
+                "<div id='fullScreen' onclick='hide()'><div style='padding: 30px;font-size: 40px; text-align: right;'>✕</div></div>"
+                
+            );
+            var screenHeight = $(window).height();
+
+
+
+            $('#iframepage').attr('src','images/product/'+pdfPath);
+
+            $('#iframepage').css('height',screenHeight*0.9+'px');
+            var scrolltop = $(document).scrollTop();
+            var objTop = (screenHeight - $('#iframepage').height())/2 + scrolltop;
+            $('#iframepage').css('visibility', 'visible');
+            $('#iframepage').css('top',objTop+'px');
+            
+
+         $(document.body).css({
+               "overflow-x":"hidden",
+               "overflow-y":"hidden"
+             });
+    }
+
+    function hide(){
+        $('#iframepage').css('visibility', 'hidden');
+        $(document.body).css({
+               "overflow-x":"",
+               "overflow-y":""
+             });
+        $("#fullScreen").remove();
+    }
+
+
+    // 居中
+    function leftTop(obj){
+            var screenWidth = $(window).width();
+            var screenHeight = $(window).height();
+            var scrolltop = $(document).scrollTop();
+            var scrollleft = $(document).scrollLeft();
+            var objLeft = (screenWidth - obj.width())/2 + scrollleft  ;
+            var objTop = (screenHeight - obj.height())/2 + scrolltop;
+            obj.css({left: objLeft + 'px', top: objTop + 'px'});
+    }
+    function center(obj) {
+        leftTop(obj);
+        //浏览器窗口大小改变时
+        $(window).resize(function() {
+             leftTop(obj);
+        });
+        //浏览器有滚动条时的操作、
+        $(window).scroll(function() {
+            leftTop(obj);
+        });
+       
+    }
+    //确定取消的操作
+    $('.btn1,.btn2').click(function(){
+        $('.mask,.alertBox').hide();
+    })
+
+    //确定取消的操作
+    $('#fullScreen').click(function(){
+        hide();
+    })
+
+
+//     function changeFrameHeight(){
+//      var ifm= document.getElementById("iframepage");
+//     var height =ifm.height=document.documentElement.clientHeight;
+//     var width = ifm.width=document.documentElement.clientWidth;
+// }
+// window.onload = window.onresize=function(){
+//     changeFrameHeight();
+// }
+
+</script>
+</body>
+</html>
