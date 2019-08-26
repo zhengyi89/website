@@ -563,6 +563,8 @@ input.search-form:hover {
 
 .feature-wrap h2{
   margin-top: 10px;
+  font-size: 18px;
+  width: 95%;
 }
 
 .feature-wrap .pull-left {
@@ -2596,7 +2598,7 @@ shortcodes page css
 }
 
 .container .row .features .feature-wrap img {
-  width: 80%; 
+  width: 92%; 
 }
 
 
